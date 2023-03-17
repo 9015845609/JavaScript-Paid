@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "name": "Onions",
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/10000150_19-fresho-onion.jpg",
+      "price": "120",
+      "quantity": "40",
+      "description": "Onions are known to be rich in biotin. Most of the flavonoids which are known as anti-oxidants are concentrated more in the outer layers, so when you peel off the layers, you should remove as little as possible",
+      "categoryId": "2",
+      "id": "UyEDV5Yds"
+    },
+    {
+      "name": "Fresho Carrot ",
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/10000071_14-fresho-carrot-orange.jpg",
+      "price": "95",
+      "quantity": "20",
+      "description": "A popular sweet-tasting root vegetable, Carrots are narrow and cone shaped",
+      "categoryId": "2",
+      "id": "C4EDV7UD"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Fruits"
+    },
+    {
+      "id": "2",
+      "name": "Vegetables"
+    },
+    {
+      "id": "3",
+      "name": "Beverages"
+    },
+    {
+      "id": "4",
+      "name": "Bakery"
+    },
+    {
+      "id": "5",
+      "name": "Snakes"
+    },
+    {
+      "id": "6",
+      "name": "Beauty"
+    }
+  ]
+}

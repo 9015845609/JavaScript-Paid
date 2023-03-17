@@ -1,0 +1,73 @@
+Big Basket App with JavaScript
+-------------------------------
+-> Server Setup
+----------------
+-> install node js -> node --version -> 18.x
+-> create a folder "server"
+-> create a package.json file -> npm init --yes
+-> "npm install json-server"
+-> place the "db.json" in server folder
+-> update package.json start script
+   "start" : "json-server --watch db.json --port 9000"
+
+-> start  the server "npm start"
+
+NOTE : To test the application in your local system, enter the below 2 commands inside "server" folder
+-> npm install
+-> npm start
+
+-> Test the Server (using postman rest client  / insomnia rest client)
+------------------
+GET -> to get data from server -> READ
+POST -> to create data at server -> CREATE
+PUT -> to update data at server -> UPDATE
+DELETE -> to delete data at server -> DELETE
+
+/**
+	@usage : to get all products
+    @method : GET
+    @body : no-params
+    @url : http://localhost:9000/products
+*/
+
+/**
+	@usage : get a product
+    @method : GET
+    @body : no-params
+    @url : http://localhost:9000/products/:productId
+*/
+
+/**
+	@usage : create a product
+    @method : POST
+    @body : name, imageUrl, price, quantity, description, categoryId
+    @url : http://localhost:9000/products/
+*/
+
+/**
+	@usage : Update a product
+    @method : PUT
+    @body : name, imageUrl, price, quantity, description, categoryId
+    @url : http://localhost:9000/products/:productId
+*/
+
+/**
+	@usage : Delete a product
+    @method : DELETE
+    @body : no-params
+    @url : http://localhost:9000/products/:productId
+*/
+
+/**
+	@usage : Get all categories
+    @method : GET
+    @body : no-params
+    @url : http://localhost:9000/categories/
+*/
+
+/**
+	@usage : Get a Category
+    @method : GET
+    @body : no-params
+    @url : http://localhost:9000/categories/:categoryId
+*/

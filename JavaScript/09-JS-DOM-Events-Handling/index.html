@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <title>JS DOM Basics</title>
+</head>
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-lg bg-success" id="nav-bar">
+    <div class="container">
+        <a class="navbar-brand" href="#">JS DOM Example</a>
+    </div>
+</nav>
+
+<h1>Welcome</h1>
+<button class="btn btn-success" onclick="updateText()">Update Text</button>
+
+<div id="text-div">
+
+</div>
+
+
+<div>
+    <img alt="" id="image" src="../images/card_1.jpg">
+    <button class="btn btn-warning" ondblclick="updateImage()">Change Image</button>
+</div>
+
+
+<form>
+    <label>Username</label>
+    <input id="username" type="text">
+</form>
+
+<button class="btn btn-danger" onclick="displayTableData()">Display Table</button>
+<table class="table table-striped text-center">
+    <thead>
+    <tr>
+        <th>SNO</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Suite</th>
+        <th>Street</th>
+        <th>City</th>
+    </tr>
+    </thead>
+    <tbody id="table-body">
+
+    </tbody>
+</table>
+
+<div style="margin-bottom: 1000px"></div>
+<script src="events-handling.js"></script>
+</body>
+</html>
